@@ -3,9 +3,19 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-center py-32 px-16 bg-white dark:bg-black sm:items-center">
+        {/* Bottone centrato */}
+        <div className="flex w-full justify-center mb-10">
+          <a
+            href="https://www.vans.com/it-it"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full bg-black px-6 py-3 text-white text-lg font-semibold transition-colors hover:bg-zinc-800 dark:bg-white dark:text-black dark:hover:bg-zinc-200"
+          >
+            Vans
+          </a>
+        </div>
         <Image
-          
           src="/vans.svg"
           alt="Next.js logo"
           width={1500}
@@ -17,21 +27,21 @@ export default function Home() {
             Welcome to the Vans store.
           </h1>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for the perfect pairs of shoes or wanna learn how to repair a bmx? Head over to{" "}
+            Looking for the perfect pairs of shoes or wanna learn how to have a lit outfit? Head over to the closest{" "}
             <a
-              href="https://eu.sourcebmx.com/it-it/pages/find-your-bmx-bike"
+              href="https://www.vans.com/it-it/trova-un-negozio"
               className="font-medium text-zinc-950 dark:text-zinc-50"
             >
-              Finding
+              Vans store
             </a>{" "}
-            or the{" "}
+            or make {" "}
             <a
-              href="https://eu.sourcebmx.com/it-it/pages/bmx-maintenance-videos"
+              href="https://www.vans.com/it-it/customs"
               className="font-medium text-zinc-950 dark:text-zinc-50"
             >
-              Repairing
+              Some shoes
             </a>{" "}
-            center.
+            al by yourself.
           </p>
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
@@ -73,15 +83,13 @@ export default function Home() {
           >
             <Image
               className="dark:invert"
-              src="/globe.svg"
+              src="/running.svg"
               alt="Vercel logomark"
               width={16}
               height={16}
             />
             See our athletes
           </a>
-          <p>
-          </p>
         </div>
       </main>
     </div>
