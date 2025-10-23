@@ -93,8 +93,8 @@ export default function Home() {
             See our athletes
           </a>
           <Button variant="outlined" startIcon={<ArticleIcon />}>
-  Delete
-</Button>
+          Delete
+          </Button>
         </div>
       </main>
     </div>
