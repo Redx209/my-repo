@@ -1,4 +1,6 @@
+import { Button } from "@mui/material";
 import Image from "next/image";
+import ArticleIcon from '@mui/icons-material/Article';
 
 export default function Home() {
   return (
@@ -90,6 +92,9 @@ export default function Home() {
             />
             See our athletes
           </a>
+          <Button variant="outlined" startIcon={<ArticleIcon />}>
+  Delete
+</Button>
         </div>
       </main>
     </div>
