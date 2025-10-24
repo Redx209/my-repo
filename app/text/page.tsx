@@ -11,7 +11,7 @@ export default function Home() {
   };
   return (
     <div className="flex min-h-screen flex-col items-center justify-start bg-zinc-50 font-sans dark:bg-black">
-      <div className="w-full flex justify-center py-6 z-10 relative">
+      <div className="w-full bg-[#f5f5dc] flex justify-center py-7 z-10 relative mb-10">
       <a
       href="https://www.vans.com/it-it"
       target="_blank"
@@ -33,7 +33,7 @@ export default function Home() {
       <main className="flex w-full max-w-3xl flex-col items-center justify-center py-20 px-6 bg-white dark:bg-black sm:items-center">
         <div className="flex items-center gap-7 text-center sm:items-start sm:text-left mb-10">
           <h1 className="max-w-xs text-3xl font-bold leading-10 tracking-tight text-red-900 dark:text-red-700">
-          Welcome to the Vans store.
+            Welcome to the Vans store.
           </h1>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
             Looking for the perfect pairs of shoes or wanna learn how to have a lit outfit? Head over to the closest{" "}
@@ -99,6 +99,14 @@ export default function Home() {
           </button>
         </div>
       </main>
+      <div className="w-full bg-[#f5f5dc] flex justify-center py-6 z-10 relative" >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-full bg-white-800 px-6 py-3 text-white text-lg font-semibold transition-colors hover:bg-white-900 dark:bg-white-650 dark:hover:bg-white-800"
+        >
+        </a>
+      </div>
     </div>
   );
 }
