@@ -1,0 +1,8 @@
+[
+  { "id": "0000", "name": "Usain Bolt", "sport": "Athletics" },
+  { "id": "0001", "name": "Kevin Peraza", "sport": "Bmx" },
+  { "id": "0010", "name": "Courage Adams", "sport": "Bmx" },
+  { "id": "0011", "name": "Tony Hawks", "sport": "Skate" },
+  { "id": "0100", "name": "Serena Williams", "sport": "Tennis" },
+  { "id": "0101", "name": "Michael Phelps", "sport": "Swimming" }
+]
