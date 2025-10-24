@@ -64,8 +64,8 @@ export default function Home() {
               className="dark:invert"
               src="/vercel.svg"
               alt="Vercel logomark"
-              width={16}
-              height={16}
+              width={18}
+              height={18}
             />
             See the shop
           </a>
@@ -79,8 +79,8 @@ export default function Home() {
               className="dark:invert"
               src="/globe.svg"
               alt="Vercel logomark"
-              width={16}
-              height={16}
+              width={18}
+              height={18}
             />
             See the news
           </a>
@@ -92,14 +92,11 @@ export default function Home() {
               className="dark:invert"
               src="/running.svg"
               alt="Vercel logomark"
-              width={16}
-              height={16}
+              width={18}
+              height={18}
             />
             See our athletes
           </button>
-          <Button variant="outlined" startIcon={<ArticleIcon />}>
-            Delete
-          </Button>
         </div>
       </main>
     </div>

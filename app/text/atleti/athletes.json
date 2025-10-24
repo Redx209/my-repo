@@ -1,14 +1,14 @@
 [
   { "id": "0000", "name": "Perris Benegas", "sport": "Bmx",  "bio":"Perris Benegas è una rider BMX professionista nota per il suo stile fluido e potente."},
-  { "id": "0001", "name": "Kevin Peraza", "sport": "Bmx",  "bio":""},
-  { "id": "0010", "name": "Courage Adams", "sport": "Bmx",  "bio":""},
-  { "id": "0011", "name": "Pedro Delfino", "sport": "Skate",  "bio":""},
-  { "id": "0100", "name": "Nelly Morville", "sport": "Skate",  "bio":""},
-  { "id": "0101", "name": "Zion Wright", "sport": "Skate",  "bio":""},
-  { "id": "0110", "name": "Grant Noble", "sport": "Surf",  "bio":""},
-  { "id": "0111", "name": "Holly Wawn", "sport": "Surf",  "bio":""},
-  { "id": "1000", "name": "Pua Desoto", "sport": "Surf",  "bio":""},
-  { "id": "1001", "name": "Mia Brookers", "sport": "Snowboard", "bio":"" },
-  { "id": "1010", "name": "Rene Rinnekangs", "sport": "Snowboard",  "bio":""},
-  { "id": "1011", "name": "Benny Urban", "sport": "Snowboard",  "bio":""}
+  { "id": "0001", "name": "Kevin Peraza", "sport": "Bmx",  "bio":"Kevin Peraza è un rider BMX professionista celebre per il suo stile creativo, esplosivo e incredibilmente versatile."},
+  { "id": "0010", "name": "Courage Adams", "sport": "Bmx",  "bio":"Courage Adams è un rider BMX street noto per il suo controllo assoluto, equilibrio perfetto e stile incredibilmente preciso"},
+  { "id": "0011", "name": "Pedro Delfino", "sport": "Skate",  "bio":"Pedro Delfino è uno skater professionista noto per il suo stile aggressivo, audace e capace di affrontare ogni terreno."},
+  { "id": "0100", "name": "Nelly Morville", "sport": "Skate",  "bio":"Nelly Morville è una skater professionista apprezzata per il suo stile grezzo, tecnico e autentico, ora pro per Limosine."},
+  { "id": "0101", "name": "Zion Wright", "sport": "Skate",  "bio":"Zion Wright è uno skater professionista noto per il suo stile potente, fluido e la versatilità tra street e vert."},
+  { "id": "0110", "name": "Grant Noble", "sport": "Surf",  "bio":"Grant Noble è un surfista californiano noto per il suo stile classico su longboard e tavole alternative."},
+  { "id": "0111", "name": "Holly Wawn", "sport": "Surf",  "bio":"Holly Wawn è una surfista australiana nota per il suo stile potente e preciso, attiva nel circuito professionale."},
+  { "id": "1000", "name": "Pua Desoto", "sport": "Surf",  "bio":"Pua DeSoto è una surfista hawaiana nota per il suo stile potente, radicato nella cultura polinesiana e nella tradizione familiare."},
+  { "id": "1001", "name": "Mia Brookers", "sport": "Snowboard", "bio":"Mia Brookes è una snowboarder britannica nota per il suo stile audace e creativo, campionessa mondiale di slopestyle a 16 anni."},
+  { "id": "1010", "name": "Rene Rinnekangs", "sport": "Snowboard",  "bio":"Rene Rinnekangas è uno snowboarder finlandese noto per il suo stile creativo, energico e la versatilità tra street e slopestyle."},
+  { "id": "1011", "name": "Benny Urban", "sport": "Snowboard",  "bio":"Benny Urban è uno snowboarder tedesco noto per il suo stile street creativo, tecnico e influenzato dalla cultura skate."}
 ]
