@@ -1,8 +1,14 @@
 [
-  { "id": "0000", "name": "Usain Bolt", "sport": "Athletics" },
+  { "id": "0000", "name": "Perris Benegas", "sport": "Bmx" },
   { "id": "0001", "name": "Kevin Peraza", "sport": "Bmx" },
   { "id": "0010", "name": "Courage Adams", "sport": "Bmx" },
-  { "id": "0011", "name": "Tony Hawks", "sport": "Skate" },
-  { "id": "0100", "name": "Serena Williams", "sport": "Tennis" },
-  { "id": "0101", "name": "Michael Phelps", "sport": "Swimming" }
+  { "id": "0011", "name": "Pedro Delfino", "sport": "Skate" },
+  { "id": "0100", "name": "Nelly Morville", "sport": "Skate" },
+  { "id": "0101", "name": "Zion Wright", "sport": "Skate" },
+  { "id": "0110", "name": "Grant Noble", "sport": "Surf" },
+  { "id": "0111", "name": "Holly Wawn", "sport": "Surf" },
+  { "id": "1000", "name": "Pua Desoto", "sport": "Surf" },
+  { "id": "1001", "name": "Mia Brookers", "sport": "Snowboard" },
+  { "id": "1010", "name": "Rene Rinnekangs", "sport": "Snowboard" },
+  { "id": "1011", "name": "Benny Urban", "sport": "Snowboard" }
 ]
