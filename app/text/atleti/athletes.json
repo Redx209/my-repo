@@ -1,14 +1,86 @@
 [
-  { "id": "0000", "name": "Perris Benegas", "sport": "Bmx",  "bio":"Perris Benegas è una rider BMX professionista nota per il suo stile fluido e potente."},
-  { "id": "0001", "name": "Kevin Peraza", "sport": "Bmx",  "bio":"Kevin Peraza è un rider BMX professionista celebre per il suo stile creativo, esplosivo e incredibilmente versatile."},
-  { "id": "0010", "name": "Courage Adams", "sport": "Bmx",  "bio":"Courage Adams è un rider BMX street noto per il suo controllo assoluto, equilibrio perfetto e stile incredibilmente preciso"},
-  { "id": "0011", "name": "Pedro Delfino", "sport": "Skate",  "bio":"Pedro Delfino è uno skater professionista noto per il suo stile aggressivo, audace e capace di affrontare ogni terreno."},
-  { "id": "0100", "name": "Nelly Morville", "sport": "Skate",  "bio":"Nelly Morville è una skater professionista apprezzata per il suo stile grezzo, tecnico e autentico, ora pro per Limosine."},
-  { "id": "0101", "name": "Zion Wright", "sport": "Skate",  "bio":"Zion Wright è uno skater professionista noto per il suo stile potente, fluido e la versatilità tra street e vert."},
-  { "id": "0110", "name": "Grant Noble", "sport": "Surf",  "bio":"Grant Noble è un surfista californiano noto per il suo stile classico su longboard e tavole alternative."},
-  { "id": "0111", "name": "Holly Wawn", "sport": "Surf",  "bio":"Holly Wawn è una surfista australiana nota per il suo stile potente e preciso, attiva nel circuito professionale."},
-  { "id": "1000", "name": "Pua Desoto", "sport": "Surf",  "bio":"Pua DeSoto è una surfista hawaiana nota per il suo stile potente, radicato nella cultura polinesiana e nella tradizione familiare."},
-  { "id": "1001", "name": "Mia Brookers", "sport": "Snowboard", "bio":"Mia Brookes è una snowboarder britannica nota per il suo stile audace e creativo, campionessa mondiale di slopestyle a 16 anni."},
-  { "id": "1010", "name": "Rene Rinnekangs", "sport": "Snowboard",  "bio":"Rene Rinnekangas è uno snowboarder finlandese noto per il suo stile creativo, energico e la versatilità tra street e slopestyle."},
-  { "id": "1011", "name": "Benny Urban", "sport": "Snowboard",  "bio":"Benny Urban è uno snowboarder tedesco noto per il suo stile street creativo, tecnico e influenzato dalla cultura skate."}
+  {
+    "id": "0000",
+    "name": "Perris Benegas",
+    "sport": "Bmx",
+    "bio": "Perris Benegas è una rider BMX professionista nota per il suo stile fluido e potente.",
+    "image": "https://nevadasportsnet.com/resources/media/5bdaf2aa-e13e-4ed5-98e5-5da2d5458b22-medium16x9_GettyImages2158203574.jpg"
+  },
+  {
+    "id": "0001",
+    "name": "Kevin Peraza",
+    "sport": "Bmx",
+    "bio": "Kevin Peraza è un rider BMX professionista celebre per il suo stile creativo, esplosivo e incredibilmente versatile.",
+    "image": "https://www.wastedattitude.com/wp-content/uploads/2018/12/Kevin-Peraza-Fise-2018-Montpelleir-Ryan-Fudger-01.jpg"
+  },
+  {
+    "id": "0010",
+    "name": "Courage Adams",
+    "sport": "Bmx",
+    "bio": "Courage Adams è un rider BMX street noto per il suo controllo assoluto, equilibrio perfetto e stile incredibilmente preciso",
+    "image": "https://imagenes.diariodenavarra.es/files/article_image_672_378/files/fp/uploads/2023/05/18/68b0fdf11a835.r_d.0-0-3500.jpeg"
+  },
+  {
+    "id": "0011",
+    "name": "Pedro Delfino",
+    "sport": "Skate",
+    "bio": "Pedro Delfino è uno skater professionista noto per il suo stile aggressivo, audace e capace di affrontare ogni terreno.",
+    "image": "https://www.dlxsf.com/wp-content/uploads/2020/08/pedro-delfino-interview-slider.jpg"
+  },
+  {
+    "id": "0100",
+    "name": "Nelly Morville",
+    "sport": "Skate",
+    "bio": "Nelly Morville è una skater professionista apprezzata per il suo stile grezzo, tecnico e autentico, ora pro per Limosine.",
+    "image": "https://i.ytimg.com/vi/n4B_wXYud6Y/maxresdefault.jpg"
+  },
+  {
+    "id": "0101",
+    "name": "Zion Wright",
+    "sport": "Skate",
+    "bio": "Zion Wright è uno skater professionista noto per il suo stile potente, fluido e la versatilità tra street e vert.",
+    "image": "https://shredder.news/wp-content/uploads/zion-wright-nosegrind-huntington-beach.jpg"
+  },
+  {
+    "id": "0110",
+    "name": "Grant Noble",
+    "sport": "Surf",
+    "bio": "Grant Noble è un surfista californiano noto per il suo stile classico su longboard e tavole alternative.",
+    "image": "https://www.iconsofsurf.com/cdn/shop/files/GrantNoble-9.jpg?v=1707220616&width=3840"
+  },
+  {
+    "id": "0111",
+    "name": "Holly Wawn",
+    "sport": "Surf",
+    "bio": "Holly Wawn è una surfista australiana nota per il suo stile potente e preciso, attiva nel circuito professionale.",
+    "image": "https://i.ytimg.com/vi/pS6ri5--wkc/maxresdefault.jpg"
+  },
+  {
+    "id": "1000",
+    "name": "Pua Desoto",
+    "sport": "Surf",
+    "bio": "Pua DeSoto è una surfista hawaiana nota per il suo stile potente, radicato nella cultura polinesiana e nella tradizione familiare.",
+    "image": "https://m.media-amazon.com/images/M/MV5BZWE4ZWUyMDYtOGUxNi00MjVjLTkyZTItOTA5ZjMyNzAyYmYxXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg"
+  },
+  {
+    "id": "1001",
+    "name": "Mia Brookers",
+    "sport": "Snowboard",
+    "bio": "Mia Brookes è una snowboarder britannica nota per il suo stile audace e creativo, campionessa mondiale di slopestyle a 16 anni.",
+    "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/2098/production/_132444380_jd201533.jpg"
+  },
+  {
+    "id": "1010",
+    "name": "Rene Rinnekangs",
+    "sport": "Snowboard",
+    "bio": "Rene Rinnekangas è uno snowboarder finlandese noto per il suo stile creativo, energico e la versatilità tra street e slopestyle.",
+    "image": "https://boardridingstorageus.blob.core.windows.net/images/gallery/Gal_807-Rene-Rinnekangas-3rd-SS-12March-2021-Aspen-FIS-Champs-@ussnowboardteam.jpg"
+  },
+  {
+    "id": "1011",
+    "name": "Benny Urban",
+    "sport": "Snowboard",
+    "bio": "Benny Urban è uno snowboarder tedesco noto per il suo stile street creativo, tecnico e influenzato dalla cultura skate.",
+    "image": "https://img.redbull.com/images/c_crop,w_2561,h_1281,x_0,y_591/c_auto,w_1200,h_600/f_auto,q_auto/redbullcom/2023/10/3/xmubyxkcvxhwiy9kbegm/benny-urban-portrait"
+  }
 ]

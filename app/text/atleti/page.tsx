@@ -10,6 +10,7 @@ import WavesIcon from '@mui/icons-material/Waves';
 import AcUnitIcon from '@mui/icons-material/AcUnit';
 import SportsIcon from '@mui/icons-material/Sports';
 import CloseIcon from '@mui/icons-material/Close';
+
 function getSportIcon(sport: string) {
   switch (sport.toLowerCase()) {
     case 'skate':
@@ -32,8 +33,10 @@ function getSportIcon(sport: string) {
       return <SportsIcon style={{ fontSize: 40, color: 'White' }} />;
   }
 }
+
 export default function Page() {
   const [selectedAtleta, setSelectedAtleta] = useState<any | null>(null);
+
   return (
     <div className="flex min-h-screen flex-col items-center justify-start bg-zinc-50 font-sans dark:bg-black">
       <div className="relative w-full h-80 sm:h-[28rem] md:h-[32rem] lg:h-[40rem]">
@@ -45,6 +48,7 @@ export default function Page() {
           className="object-cover"
         />
       </div>
+
       <main className="flex w-full max-w-6xl flex-col items-center justify-start pt-16 px-8 bg-white dark:bg-black sm:items-start">
         <h1 className="text-4xl font-bold text-black dark:text-white mb-10">
           Elenco Atleti
@@ -66,6 +70,7 @@ export default function Page() {
           ))}
         </div>
       </main>
+
       {selectedAtleta && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="max-w-xl w-full bg-white dark:bg-gray-900 rounded-lg border border-zinc-200 dark:border-zinc-700 p-8 relative">
@@ -75,6 +80,19 @@ export default function Page() {
             >
               <CloseIcon />
             </button>
+
+            {/* Immagine dell’atleta */}
+            {selectedAtleta.image && (
+              <div className="relative w-full h-64 mb-4 rounded overflow-hidden">
+                <Image
+                  src={selectedAtleta.image}
+                  alt={`Foto di ${selectedAtleta.name}`}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            )}
+
             <div className="flex items-center gap-4 mb-4">
               {getSportIcon(selectedAtleta.sport)}
               <h1 className="text-2xl font-bold text-black dark:text-white">{selectedAtleta.name}</h1>
